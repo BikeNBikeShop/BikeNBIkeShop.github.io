@@ -180,18 +180,8 @@ div.desc {
   color: white;
   font-family: sans-serif;
 }
-.container {
-  width: 80%;
-  margin: 80px auto;
-}
-.container h1{
-  padding: 60px 0;
-  color: white;
-  font-size: 20px;
-  text-align: left;
-}
-.row {
-  display: flex;
+.row{
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -217,4 +207,49 @@ div.desc {
 .video-player{
    width: 320px;
    height: 240px;
+}
+input[type=gab] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid;
+  outline: none;
+  color: white;
+}
+input[type=gab]:focus {
+  background-color: lightblue;
+}
+label[for=fname]{
+  color: white;
+}
+.gabriel h1 {
+  color: white;
+}
+.gabriel p {
+  color: white;
+}
+.pogi p{
+  color: white;
+}
+select[id=gender]{
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input[type=submitform]{
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+input[type=submitform]:hover{
+  background-color: darkblue;
 }
