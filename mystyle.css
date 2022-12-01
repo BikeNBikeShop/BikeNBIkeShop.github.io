@@ -253,3 +253,15 @@ input[type=submitform]{
 input[type=submitform]:hover{
   background-color: darkblue;
 }
+.bel {
+  float: left;
+}
+.bel h2{
+  color: white;
+}
+.bel p{
+  color: white;
+}
+.bel h2{
+  color: white;
+}
